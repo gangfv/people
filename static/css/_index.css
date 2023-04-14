@@ -1,0 +1,26 @@
+main {
+    height: calc(100vh - 202px) !important;
+}
+
+main .app-b img {
+    position: absolute;
+    object-fit: cover;
+    width: 100%;
+    height: calc(100vh - 202px);
+    z-index: -1;
+}
+
+.app img {
+    object-fit: cover;
+    max-width: 1127px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 100px 0;
+}
+
+.app {
+    margin: 0 auto;
+}

@@ -1,0 +1,14 @@
+{% extends '_base.html' %}
+{% load static %}
+{% block style %}
+<link rel="stylesheet" href="{% static 'css/_index.css' %}">
+{% endblock style %}
+
+{% block content %}
+<div class="app-b">
+    <img src="{% static 'img/app.png' %}" alt="Фон">
+</div>
+<div class="app container">
+    <img src="{% static 'img/people.png' %}" alt="Молодежь">
+</div>
+{% endblock content %}

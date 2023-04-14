@@ -1,0 +1,12 @@
+header {
+    width: 100%;
+    background: #fff;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+    font-weight: bold;
+    z-index: 3;
+    box-shadow: 0 6px 20px 1px rgb(0 0 0 / 16%);
+}
+
+header p {
+    font-weight: bold;
+}

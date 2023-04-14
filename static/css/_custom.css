@@ -1,0 +1,35 @@
+.text {
+    display: flex;
+    min-height: 100%;
+    margin: 100px 0;
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width: 600px) {
+    .text * {
+        text-align: center !important;
+    }
+
+    .text li {
+        text-align: left !important;
+    }
+
+    .text img {
+        height: 100% !important;
+    }
+
+}
+
+
+.text div {
+    max-width: 100%;
+}
+
+
+.text img {
+    object-fit: scale-down;
+    width: 100% !important;
+}
