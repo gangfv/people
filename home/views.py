@@ -29,6 +29,12 @@ class NewsList(generic.ListView):
     template_name = 'news.html'
 
 
+class NewDetail(generic.DetailView):
+    model = New
+    context_object_name = 'new'
+    template_name = 'new.html'
+
+
 class ArticleApi(generics.ListAPIView):
     queryset = Article.objects.all()
     serializer_class = ArticleSerializer

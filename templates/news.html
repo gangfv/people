@@ -11,20 +11,23 @@
     <div class="mrl">
         <div class="card_list">
             {% for i in news %}
-            <div class="card">
-                <img src="{{ i.img.url }}" alt="">
-                <div class="card-c">
-                    <div class="title">
-                        {{ i.title }}
-                    </div>
-                    <div class="text">
-                        {{ i.text }}
-                    </div>
-                    <div class="date">
-                        {{ i.date }}
+            <a href="{% url 'new' i.pk %}">
+                <div class="card">
+                    <img src="{{ i.img.url }}" alt="">
+                    <div class="card-c">
+                        <div class="title">
+                            {{ i.title }}
+                        </div>
+                        <div class="text">
+                            {{ i.text }}
+                        </div>
+                        <div class="date">
+                            {{ i.date }}
+                        </div>
                     </div>
                 </div>
-            </div>
+            </a>
+
             {% endfor %}
         </div>
     </div>

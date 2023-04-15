@@ -1,13 +1,28 @@
 main {
-    height: calc(100vh - 202px) !important;
+    width: 100%;
 }
 
-main .app-b img {
-    position: absolute;
-    object-fit: cover;
-    width: 100%;
-    height: calc(100vh - 202px);
-    z-index: -1;
+.app-b {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+}
+.app-b .text {
+    max-width: 100%;
+}
+
+.app-b .slog {
+    max-width: 100%;
+}
+
+
+.df {
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
 
 .app img {
@@ -23,4 +38,16 @@ main .app-b img {
 
 .app {
     margin: 0 auto;
+}
+
+.df-app {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.df-app h1 {
+    text-align: center;
+    font-size: 1.5rem;
 }

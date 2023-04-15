@@ -35,8 +35,8 @@
 
 .card .date {
     position: absolute;
-    bottom: 25px;
-    right: 25px;
+    bottom: 8px;
+    right: 8px;
 }
 
 .card_list {
@@ -46,4 +46,22 @@
     align-content: center;
     flex-direction: row;
     flex-wrap: wrap;
+}
+
+.new {
+    margin: 100px auto;
+    display: flex;
+    font-weight: bold;
+    font-size: 18px;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.new img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.new div {
+    margin-top: 20px;
 }

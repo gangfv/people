@@ -1,0 +1,30 @@
+{% extends '_base.html' %}
+{% load static %}
+{% block title %}Новости{% endblock title %}
+
+{% block style %}
+<link rel="stylesheet" href="{% static 'css/_news.css' %}">
+{% endblock style %}
+
+{% block content %}
+<div class="container">
+    <div class="new">
+        <div class="mrl">
+            <img src="{{ new.img.url }}" alt="">
+            <div class="title">
+                {{ new.title }}
+            </div>
+            <div class="text">
+                {{ new.text }}
+            </div>
+            <div class="desc">
+                {{ new.desc }}
+            </div>
+            <div class="date">
+                {{ new.date }}
+            </div>
+        </div>
+
+    </div>
+</div>
+{% endblock content %}

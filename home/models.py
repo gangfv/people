@@ -10,8 +10,8 @@ class Article(models.Model):
         return self.title
 
     class Meta:
-        verbose_name = 'Информационные старницы'
-        verbose_name_plural = 'Информационная старница'
+        verbose_name = 'Информационная страница'
+        verbose_name_plural = 'Информационные страница'
 
 
 class New(models.Model):
@@ -25,5 +25,5 @@ class New(models.Model):
         return self.title
 
     class Meta:
-        verbose_name = 'Новости'
-        verbose_name_plural = 'Новость'
+        verbose_name = 'Новость'
+        verbose_name_plural = 'Новости'
