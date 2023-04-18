@@ -1,9 +1,10 @@
 footer {
     width: 100%;
-    background: #fff;
+    background: #ffffff0f;
     border-top: 1px solid rgba(0, 0, 0, 0.5);
     margin-top: auto;
     z-index: 3;
+    box-shadow: 0 -6px 20px 1px rgb(0 0 0 / 16%);
 }
 
 footer p {
